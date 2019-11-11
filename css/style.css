@@ -1,0 +1,120 @@
+header {
+    display: flex;
+	align-items: center;
+	grid-column: span 3;
+	text-align: center;
+	font-size: 1.5em;
+	padding: -10px;
+    color: black;
+    max-width: 100%;
+    height: auto;
+}
+
+.HeaderPremium {
+    position: absolute;
+    right: 19.5em;
+    max-width: 50%;
+    height: auto;
+    text-align: right;
+}
+
+.HeaderDownload {
+    position: absolute;
+    right: 14.25em;
+    max-width: 50%;
+    height: auto;
+    text-align: right;
+}
+
+.HeaderLogIn {
+    position: absolute;
+    right: 9em;
+    max-width: 50%;
+    height: auto;
+    text-align: right;
+}
+
+.HeaderSignUp {
+    position: absolute;
+    right: 4em;
+    max-width: 50%;
+    height: auto;
+    text-align: right;
+}
+
+body {
+    background: -moz-linear-gradient(top,  #ffffff 39%, #ffffff 62%, #ffd728 100%, #ffd728 100%);
+    background: -webkit-linear-gradient(top,  #ffffff 39%,#ffffff 62%,#ffd728 100%,#ffd728 100%);
+    background: linear-gradient(to bottom,  #ffffff 39%,#ffffff 62%,#ffd728 100%,#ffd728 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffd728',GradientType=0 );
+}
+
+button {
+    size: 4px;
+    margin: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 3px solid orange;
+    background-color: white;
+    color: black;
+}
+
+.Music1PicNText {
+    width: 40%;
+    margin: 10px auto;
+    border: 1px solid #000000;
+    position: relative;
+}
+
+.Music1 {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.PicText {
+    padding: auto;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    opacity: 80%;
+    text-align: left;
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+    top: 25%;
+    left: 15%;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+  
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    text-align: center;
+    border: solid white 2px;
+    border-radius: 30px;
+    background-color: rgba(255,255,255,0.2);
+}
+
+.flex-column img {
+    width: 90%;
+    margin-top: 30px;
+    border-radius: 50%;
+}
+
+.asideButton {
+    position: absolute;
+    text-align: center;
+}
